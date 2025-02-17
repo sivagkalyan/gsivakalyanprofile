@@ -84,18 +84,24 @@ nav ul li a:hover {
 /* Theme Switch */
 .theme-switch {
     position: fixed;
-    top: 1rem;
-    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
     z-index: 1001;
     cursor: pointer;
-    padding: 0.5rem;
+    padding: 0.7rem;
     border-radius: 50%;
-    background: var(--card-bg);
-    box-shadow: var(--shadow);
+    background: var(--primary-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.theme-switch:hover {
+    transform: scale(1.1);
 }
 
 .theme-switch i {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    color: #fff;
 }
 
 /* Hero Section */
