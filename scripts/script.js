@@ -86,4 +86,8 @@ sections.forEach(section => {
     section.style.opacity = '0';
     section.style.transform = 'translateY(20px)';
     observer.observe(section);
+});
+
+document.getElementById('toggle-mode').addEventListener('click', function() {
+    document.body.classList.toggle('night-mode');
 }); 
