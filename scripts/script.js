@@ -88,6 +88,6 @@ sections.forEach(section => {
     observer.observe(section);
 });
 
-document.getElementById('toggle-mode').addEventListener('click', function() {
+document.querySelector('.theme-switch').addEventListener('click', function() {
     document.body.classList.toggle('night-mode');
 }); 
