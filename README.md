@@ -1,6 +1,6 @@
 # Personal Website
 
-This is the personal website of Siva Kalyan Geddada, a Data Engineer. The website is built using HTML, CSS, and JavaScript and is deployed using GitHub Actions.
+This is the personal website of Durga Gadiraju, an AI & Data Solutions Leader. The website is built using HTML, CSS, and JavaScript and is deployed using GitHub Actions.
 
 ## How to View
 
